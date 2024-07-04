@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import WhoAreWe from "./components/WhoAreWe";
+import Faq from "./components/Faq";
+import Discount from "./components/Discount";
 
 const Home = () => {
   return (
@@ -21,6 +23,10 @@ const Home = () => {
       <div className="mt-32">
         <Testimonial></Testimonial>
       </div>
+      {/* faq section */}
+      <Faq></Faq>
+      {/* discount section */}
+      <Discount></Discount>
     </div>
   );
 };
