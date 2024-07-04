@@ -2,7 +2,7 @@ import img from "../assets/images/Rectangle 32.png";
 import logo from "../assets/images/logo-light.png";
 const Discount = () => {
   return (
-    <div className="mt-32">
+    <div className="py-32">
       <div className="relative rounded-3xl">
         <img src={img} className="w-full  rounded-3xl h-full" alt="" />
         <div className="overlay2  absolute h-full  rounded-3xl w-full top-0"></div>
@@ -19,11 +19,7 @@ const Discount = () => {
             </div>
           </div>
         </div>
-        <img
-          src={logo}
-          className=" absolute top-10 right-10 w-32 h-10"
-          alt=""
-        />
+        <img src={logo} className=" absolute top-10 right-10 " alt="" />
       </div>
     </div>
   );

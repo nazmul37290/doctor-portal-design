@@ -22,6 +22,12 @@
     rgba(2, 0, 67, 0.3) 100%
   );
 }
+.bg-img {
+  background-image: url("assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .swiper-pagination-bullet-active {
   background-color: #ffc637 !important;
 }

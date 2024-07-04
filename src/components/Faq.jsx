@@ -1,7 +1,7 @@
 const Faq = () => {
   return (
     <div className="mt-32">
-      <div className="mb-10">
+      <div className="mb-10 text-main">
         <h4 className="rounded-full border-2 border-black w-fit py-2 px-4">
           Faq
         </h4>
@@ -10,7 +10,7 @@ const Faq = () => {
         </h2>
       </div>
       <div>
-        <div className="collapse collapse-plus my-4 px-5 bg-[#fffff5]">
+        <div className="collapse collapse-plus text-main my-4 px-5 bg-[#fffff5]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl  font-medium">
             What are your office hours?
@@ -24,7 +24,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus my-4 px-5 bg-[#fffff5]">
+        <div className="collapse collapse-plus text-main my-4 px-5 bg-[#fffff5]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             How Can I Schedule An Appointment?
@@ -38,7 +38,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus my-4 px-5 bg-[#fffff5]">
+        <div className="collapse collapse-plus text-main my-4 px-5 bg-[#fffff5]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Do You Accept Insurance?
@@ -52,7 +52,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus my-4 px-5 bg-[#fffff5]">
+        <div className="collapse collapse-plus text-main my-4 px-5 bg-[#fffff5]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             What Should I Bring To My Appointment?
@@ -66,7 +66,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus my-4 px-5 bg-[#fffff5]">
+        <div className="collapse collapse-plus text-main my-4 px-5 bg-[#fffff5]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Do You Offer Telemedicine Appointments?

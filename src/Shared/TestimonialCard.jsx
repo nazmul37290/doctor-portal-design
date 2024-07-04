@@ -1,6 +1,6 @@
 const TestimonialCard = ({ title, description, image, name, profession }) => {
   return (
-    <div className="bg-[#fffff5] rounded-3xl p-10">
+    <div className="bg-[#fffff5] rounded-3xl text-main p-10">
       <h1 className="text-xl font-bold">{title}</h1>
       <p className="my-4">{description}</p>
       <div className="flex items-center gap-4">

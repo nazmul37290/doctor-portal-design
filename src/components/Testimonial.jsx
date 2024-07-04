@@ -9,7 +9,7 @@ import TestimonialCard from "../Shared/TestimonialCard";
 const Testimonial = () => {
   return (
     <div className="">
-      <div>
+      <div className="text-main">
         <h4 className="rounded-full border-2 border-black w-fit py-2 px-4">
           Testimonial
         </h4>
